@@ -1,2 +1,2 @@
 # GeRa
-About me
+These are my practice websites I created
