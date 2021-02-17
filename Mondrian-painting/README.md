@@ -1,1 +1,1 @@
-This is a Mondrian-painting practice
+This is a Mondrian-painting practice.
