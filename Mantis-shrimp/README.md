@@ -1,1 +1,1 @@
-I created a Mantis-schrimp practice website
+I created a Mantis-schrimp practice website.
