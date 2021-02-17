@@ -1,1 +1,1 @@
-This is a Parallax Website practice
+I created a Parallax Website practice
