@@ -1,1 +1,1 @@
-I created a practice responive website
+I created a practice responive website.
