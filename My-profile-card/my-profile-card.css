@@ -19,6 +19,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  line-height: 1.5;
 }
 
 .head,
@@ -52,25 +53,21 @@ li {
   display: inline;
 }
 
-/* .profile-card {
-  background-color: hsla(60, 100%, 50%, 0.4);
+/*.profile-card {
+  background-color: hsla(60, 100%, 50%, .4);
 }
 
-.head,
-.content {
-  background-color: rgba(100, 250, 20, 0.3);
+.head, .content {
+  background-color: rgba(100,250,20,.3);
 }
 
-.profile-image,
-.name-headline,
-.about,
-.links {
-  background-color: rgba(200, 30, 195, 0.5);
-} */
+.profile-image, .name-headline, .about, .links {
+  background-color: rgba(200,30,195,.5 );
+}*/
 
 .head,
 .about {
-  margin-bottom: 10%;
+  margin-bottom: 4%;
 }
 
 .content {
@@ -103,4 +100,12 @@ img:hover {
   transform: scale(1.1);
   transition: all 0.5s ease-in-out;
   filter: grayscale(20%);
+}
+
+h1 {
+  font-size: 25px;
+}
+
+.name-headline {
+  line-height: 2em;
 }
