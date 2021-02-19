@@ -1,0 +1,106 @@
+/* CSS reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+/* Pozicionálás */
+
+.profile-card {
+  width: 480px;
+  max-width: calc(100vw - 10px);
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.head,
+.links {
+  text-align: center;
+}
+
+.head,
+.content {
+  width: 90%;
+  margin: 0 auto;
+}
+
+img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+
+.profile-image {
+  margin-top: -60px;
+}
+
+/* Contact links */
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+}
+
+/* .profile-card {
+  background-color: hsla(60, 100%, 50%, 0.4);
+}
+
+.head,
+.content {
+  background-color: rgba(100, 250, 20, 0.3);
+}
+
+.profile-image,
+.name-headline,
+.about,
+.links {
+  background-color: rgba(200, 30, 195, 0.5);
+} */
+
+.head,
+.about {
+  margin-bottom: 10%;
+}
+
+.content {
+  padding: 5% 10%;
+}
+
+body {
+  background: url('https://images.unsplash.com/photo-1510714406268-64cf6c0b2a58?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80')
+    no-repeat center center fixed;
+  background-size: cover;
+}
+
+.profile-card {
+  background-color: hsla(0, 0%, 100%, 0.7);
+  border-radius: 4px;
+  box-shadow: hsla(0, 0%, 0%, 0.8) 10px 10px 80px;
+}
+
+img {
+  padding: 1px;
+  background-color: #666;
+  filter: grayscale(50%);
+}
+
+.content {
+  border-top: 1px solid hsla(0, 0%, 30%, 0.8);
+}
+
+img:hover {
+  transform: scale(1.1);
+  transition: all 0.5s ease-in-out;
+  filter: grayscale(20%);
+}
