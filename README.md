@@ -1,2 +1,1 @@
-# GeRa
-These are my practice websites I created
+These are my first practice websites I created
